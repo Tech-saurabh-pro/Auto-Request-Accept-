@@ -1,6 +1,6 @@
 from pyrogram import Client, filters from pyrogram.types import ChatJoinRequest, Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery from pyrogram.enums import ChatMemberStatus import asyncio, os, re, json
 
-API_ID = 12345678  # 🔁 Replace with your API ID API_HASH = "your_api_hash"  # 🔁 Replace with your API HASH BOT_TOKEN = "your_bot_token"  # 🔁 Replace with your bot token OWNER_ID = 123456789  # 🔁 Replace with your Telegram user ID REQUIRED_CHANNELS = ["@channel1", "@channel2", "@channel3"]
+API_ID = 17579837  # 🔁 Replace with your API ID API_HASH = "05417aa5a7d4f7bf46bafac7e25ed69e"  # 🔁 Replace with your API HASH BOT_TOKEN = "7804127796:AAEKb6U6echHnMMpdtfrVTk4KR4Qcm_sCGE"  # 🔁 Replace with your bot token OWNER_ID = 7224704888  # 🔁 Replace with your Telegram user ID REQUIRED_CHANNELS = ["@channel1", "@channel2", "@channel3"]
 
 app = Client("AutoAcceptBot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
